@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7065AE802696D8CC00645554 /* Vama_s_Code_History_PlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065AE7F2696D8CC00645554 /* Vama_s_Code_History_PlusApp.swift */; };
+		7065AE822696D8CC00645554 /* GameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7065AE812696D8CC00645554 /* GameView.swift */; };
+		7065AE842696D8CF00645554 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7065AE832696D8CF00645554 /* Assets.xcassets */; };
+		7065AE872696D8CF00645554 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7065AE862696D8CF00645554 /* Preview Assets.xcassets */; };
+		707DDA5326A7ECAE0019BCBF /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707DDA5226A7ECAE0019BCBF /* Question.swift */; };
+		707DDA5526A7F0190019BCBF /* ChoiceTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707DDA5426A7F0190019BCBF /* ChoiceTextView.swift */; };
+		709847EB26AFDE280056B2FB /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = 709847EA26AFDE280056B2FB /* Game.swift */; };
+		70FE903926BD0E6B00EF295F /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE903826BD0E6B00EF295F /* WelcomeView.swift */; };
+		70FE903B26C28E5600EF295F /* GameColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE903A26C28E5600EF295F /* GameColor.swift */; };
+		70FE903F26C2926F00EF295F /* BottomTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE903E26C2926E00EF295F /* BottomTextView.swift */; };
+		70FE904226C3B0EB00EF295F /* GameViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE904126C3B0EB00EF295F /* GameViewModel.swift */; };
+		70FE904626C3D41400EF295F /* QuestionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE904526C3D41400EF295F /* QuestionView.swift */; };
+		70FE904826C5332900EF295F /* ScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE904726C5332900EF295F /* ScoreView.swift */; };
+		70FE904A26C5363D00EF295F /* ScoreViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70FE904926C5363D00EF295F /* ScoreViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7065AE7C2696D8CC00645554 /* Vama's Code History Plus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Vama's Code History Plus.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7065AE7F2696D8CC00645554 /* Vama_s_Code_History_PlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vama_s_Code_History_PlusApp.swift; sourceTree = "<group>"; };
+		7065AE812696D8CC00645554 /* GameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameView.swift; sourceTree = "<group>"; };
+		7065AE832696D8CF00645554 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7065AE862696D8CF00645554 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7065AE882696D8CF00645554 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		707DDA5226A7ECAE0019BCBF /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		707DDA5426A7F0190019BCBF /* ChoiceTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChoiceTextView.swift; sourceTree = "<group>"; };
+		709847EA26AFDE280056B2FB /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		70FE903826BD0E6B00EF295F /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
+		70FE903A26C28E5600EF295F /* GameColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameColor.swift; sourceTree = "<group>"; };
+		70FE903E26C2926E00EF295F /* BottomTextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTextView.swift; sourceTree = "<group>"; };
+		70FE904126C3B0EB00EF295F /* GameViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewModel.swift; sourceTree = "<group>"; };
+		70FE904526C3D41400EF295F /* QuestionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionView.swift; sourceTree = "<group>"; };
+		70FE904726C5332900EF295F /* ScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreView.swift; sourceTree = "<group>"; };
+		70FE904926C5363D00EF295F /* ScoreViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7065AE792696D8CC00645554 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7065AE732696D8CC00645554 = {
+			isa = PBXGroup;
+			children = (
+				7065AE7E2696D8CC00645554 /* Vama's Code History Plus */,
+				7065AE7D2696D8CC00645554 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7065AE7D2696D8CC00645554 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7065AE7C2696D8CC00645554 /* Vama's Code History Plus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7065AE7E2696D8CC00645554 /* Vama's Code History Plus */ = {
+			isa = PBXGroup;
+			children = (
+				70FE904026C3B0BD00EF295F /* ViewModels */,
+				709847ED26B054AE0056B2FB /* Views */,
+				709847EC26B054910056B2FB /* Models */,
+				7065AE7F2696D8CC00645554 /* Vama_s_Code_History_PlusApp.swift */,
+				7065AE832696D8CF00645554 /* Assets.xcassets */,
+				7065AE882696D8CF00645554 /* Info.plist */,
+				7065AE852696D8CF00645554 /* Preview Content */,
+			);
+			path = "Vama's Code History Plus";
+			sourceTree = "<group>";
+		};
+		7065AE852696D8CF00645554 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7065AE862696D8CF00645554 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		709847EC26B054910056B2FB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				709847EA26AFDE280056B2FB /* Game.swift */,
+				707DDA5226A7ECAE0019BCBF /* Question.swift */,
+				70FE903A26C28E5600EF295F /* GameColor.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		709847ED26B054AE0056B2FB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				707DDA5426A7F0190019BCBF /* ChoiceTextView.swift */,
+				70FE903E26C2926E00EF295F /* BottomTextView.swift */,
+				7065AE812696D8CC00645554 /* GameView.swift */,
+				70FE903826BD0E6B00EF295F /* WelcomeView.swift */,
+				70FE904526C3D41400EF295F /* QuestionView.swift */,
+				70FE904726C5332900EF295F /* ScoreView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		70FE904026C3B0BD00EF295F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				70FE904126C3B0EB00EF295F /* GameViewModel.swift */,
+				70FE904926C5363D00EF295F /* ScoreViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7065AE7B2696D8CC00645554 /* Vama's Code History Plus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7065AE8B2696D8CF00645554 /* Build configuration list for PBXNativeTarget "Vama's Code History Plus" */;
+			buildPhases = (
+				7065AE782696D8CC00645554 /* Sources */,
+				7065AE792696D8CC00645554 /* Frameworks */,
+				7065AE7A2696D8CC00645554 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Vama's Code History Plus";
+			productName = "Vama's Code History Plus";
+			productReference = 7065AE7C2696D8CC00645554 /* Vama's Code History Plus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7065AE742696D8CC00645554 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					7065AE7B2696D8CC00645554 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 7065AE772696D8CC00645554 /* Build configuration list for PBXProject "Vama's Code History Plus" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7065AE732696D8CC00645554;
+			productRefGroup = 7065AE7D2696D8CC00645554 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7065AE7B2696D8CC00645554 /* Vama's Code History Plus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7065AE7A2696D8CC00645554 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7065AE872696D8CF00645554 /* Preview Assets.xcassets in Resources */,
+				7065AE842696D8CF00645554 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7065AE782696D8CC00645554 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70FE904626C3D41400EF295F /* QuestionView.swift in Sources */,
+				70FE904226C3B0EB00EF295F /* GameViewModel.swift in Sources */,
+				707DDA5326A7ECAE0019BCBF /* Question.swift in Sources */,
+				70FE904A26C5363D00EF295F /* ScoreViewModel.swift in Sources */,
+				70FE903926BD0E6B00EF295F /* WelcomeView.swift in Sources */,
+				709847EB26AFDE280056B2FB /* Game.swift in Sources */,
+				7065AE822696D8CC00645554 /* GameView.swift in Sources */,
+				70FE903F26C2926F00EF295F /* BottomTextView.swift in Sources */,
+				70FE904826C5332900EF295F /* ScoreView.swift in Sources */,
+				70FE903B26C28E5600EF295F /* GameColor.swift in Sources */,
+				707DDA5526A7F0190019BCBF /* ChoiceTextView.swift in Sources */,
+				7065AE802696D8CC00645554 /* Vama_s_Code_History_PlusApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7065AE892696D8CF00645554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7065AE8A2696D8CF00645554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7065AE8C2696D8CF00645554 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vama's Code History Plus/Preview Content\"";
+				DEVELOPMENT_TEAM = NCVQZFNR9G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Vama's Code History Plus/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vama.Vama-s-Code-History-Plus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7065AE8D2696D8CF00645554 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Vama's Code History Plus/Preview Content\"";
+				DEVELOPMENT_TEAM = NCVQZFNR9G;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Vama's Code History Plus/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.vama.Vama-s-Code-History-Plus";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7065AE772696D8CC00645554 /* Build configuration list for PBXProject "Vama's Code History Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7065AE892696D8CF00645554 /* Debug */,
+				7065AE8A2696D8CF00645554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7065AE8B2696D8CF00645554 /* Build configuration list for PBXNativeTarget "Vama's Code History Plus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7065AE8C2696D8CF00645554 /* Debug */,
+				7065AE8D2696D8CF00645554 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7065AE742696D8CC00645554 /* Project object */;
+}
